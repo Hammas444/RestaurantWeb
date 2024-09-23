@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.navbar{
+    transition: 0.5s;
+   
+  }
+  
+  .navbar.scrolled{
+    background-color: rgb(255, 255, 255) !important;
+    transition: 0.5s;
+    box-shadow:0 5px 20px rgba(136, 132, 132, 0.685) ;
+    
+  }
+  
+  .navbar.scrolled li a{
+    color: rgb(0, 0, 0)  !important;
+  }
+  .navbar.scrolled li a i{
+    color: rgb(0, 0, 0)  !important;
+  }
+
+  .nav-link{
+    color:rgb(255, 255, 255) ;font-family: 'Poppins', sans-serif;font-weight: 500;
+  }
+  
+  
+  .nav-link:hover{
+   
+    color: rgb(241, 165, 24);
+  
+   
+   transition: 0.5s;
+  }
+
+  
+  #mainbutton{
+    background-color:#DCE35B ;border-radius: 0%;
+  }
+
+  
+
+  @media screen and (max-width:425px)
+{
+  .carousel-caption h1{
+    font-size: 25px !important;
+  
+  } 
+  .carousel-caption p{
+    font-size: 12px;
+    
+  } 
+  .carousel-caption{
+    margin-bottom: -1px !important;
+  }
+  
+  #mainbutton{
+  width: 130px;
+  font-size: 15px ;
+  }
+
+}
